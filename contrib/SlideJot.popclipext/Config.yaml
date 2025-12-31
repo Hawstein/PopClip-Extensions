@@ -1,0 +1,16 @@
+name: SlideJot
+icon: icon.png
+identifier: com.pilotmoon.popclip.extension.slidejot
+description: Send selected text to SlideJot as a new Jot.
+popclip version: 3451
+
+app:
+  name: SlideJot
+  link: https://slidejot.com
+  check installed: true
+  bundle identifiers:
+    - com.dreamyfrog.SlideJot
+
+actions:
+  - title: SlideJot
+    url: slidejot://new?text={popclip text}
